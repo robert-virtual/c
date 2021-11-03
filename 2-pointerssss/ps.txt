@@ -1,0 +1,20 @@
+
+procesos:
+ps -aux = user pid memoria, ...
+ps -C kerneloops
+ps -u 4449 = por usuario
+ps -e, ps -A = todos los procesos del sistema
+ps l = muestra prioridad(NI),memo fisica()
+ps -f = Do full-format listing.  This option can be combined with many
+              other UNIX-style options to add additional columns.  It also
+              causes the command arguments to be printed.  When used with -L,
+              the NLWP (number of threads) and LWP (thread ID) columns will be
+              added.  See the c option, the format keyword args, and the
+              format keyword comm.
+ps -u name_of_user
+
+STAT
+S = suspendiso
+s = proceso lider
+R = ejecutandose
+z = combie
